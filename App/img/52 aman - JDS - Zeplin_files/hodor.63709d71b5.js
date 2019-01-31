@@ -1,0 +1,2 @@
+webpackJsonp([20],{931:function(module,exports,__webpack_require__){"use strict";function supportEsClass(){try{return eval("class Test {}"),!0}catch(r){return!1}}Object.assign&&Array.from&&Array.prototype.find&&Array.prototype.findIndex&&String.prototype.startsWith&&window.CSS&&supportEsClass()||location.replace("/hodor")}},[931]);
+//# sourceMappingURL=maps/hodor.map.js

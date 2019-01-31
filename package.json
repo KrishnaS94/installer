@@ -1,0 +1,54 @@
+{
+  "name": "Aman",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "native-base": "^2.10.0",
+    "navigationbar-react-native": "0.0.5",
+    "react": "16.6.3",
+    "react-google-recaptcha": "^1.0.5",
+    "react-moment": "^0.8.4",
+    "react-native": "^0.57.8",
+    "react-native-calendar-picker": "^5.22.0",
+    "react-native-drawer": "^2.5.1",
+    "react-native-elements": "^1.0.0-beta7",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-form-validation": "^1.0.5",
+    "react-native-geocoding": "^0.3.0",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-gesture-manager": "^0.3.2",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-letter-spacing": "0.0.6",
+    "react-native-maps": "^0.23.0",
+    "react-native-maps-directions": "^1.6.0",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-mediapicker": "^0.4.1",
+    "react-native-modal": "^7.0.2",
+    "react-native-navigation": "^2.8.0",
+    "react-native-navigation-directions": "^1.0.3",
+    "react-native-open-maps": "^0.3.3",
+    "react-native-popup-dialog": "^0.17.0",
+    "react-native-popup-menu": "^0.14.2",
+    "react-native-ratings": "^6.3.0",
+    "react-native-simple-toast": "0.0.8",
+    "react-native-textarea": "^1.0.2",
+    "react-native-toolbar": "^1.0.7",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.0.9",
+    "react-recaptcha-google": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
