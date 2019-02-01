@@ -1,5 +1,5 @@
 {
-  "name": "Aman",
+  "name": "AmanInstaller",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -20,7 +20,7 @@
     "react-native-flexi-radio-button": "^0.2.2",
     "react-native-form-validation": "^1.0.5",
     "react-native-geocoding": "^0.3.0",
-    "react-native-gesture-handler": "^1.0.12",
+    "react-native-gesture-handler": "^1.0.15",
     "react-native-gesture-manager": "^0.3.2",
     "react-native-image-picker": "^0.28.0",
     "react-native-letter-spacing": "0.0.6",

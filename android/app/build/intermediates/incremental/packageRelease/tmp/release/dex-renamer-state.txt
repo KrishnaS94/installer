@@ -1,4 +1,4 @@
-#Thu Jan 31 21:51:23 IST 2019
+#Fri Feb 01 19:39:29 IST 2019
 base.0=/home/administrator/aman-frontend-installation/android/app/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex

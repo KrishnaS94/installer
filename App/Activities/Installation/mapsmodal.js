@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dimensions, StyleSheet, View,Text, Button, TouchableOpacity,TextInput } from 'react-native';
+import { Dimensions, StyleSheet, View,Text, Button, TouchableOpacity,TextInput,Modal } from 'react-native';
 import { Header, Left, Form,  Container,Content, CardItem, Card, Body, Picker, Textarea, Right } from 'native-base';
 
 import MapView, { Marker } from 'react-native-maps';
@@ -7,6 +7,7 @@ import MapViewDirections from 'react-native-maps-directions';
 
 import { Icon } from 'react-native-elements';
 import openMap from 'react-native-open-maps';
+
 
 import { OpenMapDirections } from 'react-native-navigation-directions';
 
@@ -23,12 +24,18 @@ class mapsmodal extends Component {
   constructor(props) {
     super(props);
 
-  state = {
+  this.state = {
     
+    // modalVisible:false
     // text :'P.O Box- 26, Tower 400,Sharjah, UAE'
   };
 }
 
+
+
+setModalVisible(visible) {
+  this.setState({modalVisible: visible});
+}
   // onMapPress = (e) => {
 
   //   this.setState({
@@ -212,23 +219,51 @@ _callShowDirections = () => {
          color = "#bc9e6d"
          
       />
+
+{/* <Modal
+           animationType="slide"
+           transparent={true}
+           visible={this.state.modalVisibleService}
+           onRequestClose={() => {
+             // Alert.alert('Modal has been closed.');
+           }}
+         >
+           <View
+             style={{
+               flex: 1,
+               flexDirection: "column",
+               justifyContent: "center",
+               alignItems: "center"
+             }}
+           >
+             <View
+               style={{
+                 backgroundColor: "black",
+                 padding: 15,
+                 width: "90%",
+                 borderRadius: 10,
+                 alignItems: "center"
+               }}
+             >
+             <View>
+               <Text style={{fontSize:20, fontWeight:"bold"}}>Add Services</Text>
+                
+               <View style={{flexDirection:"row", justifyContent:"space-between", marginTop:20}}>
+                 <Text  onPress={() => {
+               this.modelSelection(!this.state.modalVisibleService);
+             }}
+             style={{fontSize:20}}
+             >Cancel</Text>
+                 <Text onPress={ () => {this.addService()}} style={ styles.addService}>Submit</Text>
+               </View>
+             </View>
+             </View>
+           </View>
+         </Modal> */}
 </View>
 
 
 
-{/* <View>
-        <TouchableOpacity onPress={this.showDialog}>
-          <Text>Show Dialog</Text>
-        </TouchableOpacity> 
-         <Dialog.Container visible={true}>
-          <Dialog.Title>Account delete</Dialog.Title>
-          <Dialog.Description>
-            Do you want to delete this account? You cannot undo this action.
-          </Dialog.Description>
-          <Dialog.Button label="Cancel" onPress={this.handleCancel} />
-          <Dialog.Button label="Delete" onPress={this.handleDelete} />
-        </Dialog.Container>
-      </View> */}
   
       </View>
 </Container>
